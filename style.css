@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+display:flex;
+ justify-content: center;
+ align-items: center;
+ height:100vh;
+ text-align: center;
+ background: url(photo.jpg) no-repeat center center / cover;
+}
+.contianer{
+    width:300px;
+    margin-bottom: 10vh;
+}
+h2{
+border: 2px solid pink;
+border-radius: 20px;
+box-shadow: 0px 0px 20px -1px green;
+}
+.header{
+margin:30px 50px;
+width:80%;
+
+background-color: antiquewhite;
+
+
+}
+.main-conent{
+border:2px solid grey;
+border-radius: 10px;
+padding:20px;
+width:100%;
+
+line-height: 1.5em;
+background-color: black;
+color:white;
+
+
+}
+.person{
+color:rgb(192, 23, 52);
+text-transform: uppercase;
+}
+.button-area{
+padding-top: 10px;
+}
